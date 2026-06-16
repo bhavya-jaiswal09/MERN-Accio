@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 5vw;
+    height: 100vh;
+    background-color: yellow;
+    
+}
+
+.text{
+    visibility: hidden;
+}
+
+/* #side:hover{
+    width:15vw;
+    .text{
+        visibility: visible;
+    }
+} */

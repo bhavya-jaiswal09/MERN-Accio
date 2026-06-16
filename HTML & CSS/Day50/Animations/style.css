@@ -1,0 +1,12 @@
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: changeColor;
+    animation-duration: 4s;
+}
+
+@keyframes changeColor{
+    from{ background-color: red;}
+    to { background-color: yellow; height:300px; border:2px solid green; }
+}

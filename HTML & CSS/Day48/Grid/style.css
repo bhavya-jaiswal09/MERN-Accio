@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+#grid{
+    height:100vh;
+    border:5px solid black;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* gap:20px; */
+    /* row-gap: 5vh;
+    column-gap: 5vw; */
+    /* gap: 20px;
+    justify-items: start;
+} */
+
+/* .box{
+    height:200px;
+    width: 200px;
+    border:2px solid red;
+} */
+/* 
+#parent{
+     
+    height:100vh;
+    width:100vw;
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap:5px;
+} */
+
+/* .child{
+    border:2px solid red;
+} */
+
+/* #one{
+    grid-column-start:1;
+    grid-column-end:5;
+    background-color: red;
+}
+
+#two{
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:3;
+    background-color: black;
+}
+
+#three{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: chocolate;
+}
+
+#four{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: pink;
+}
+
+#five{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: darkslategrey;
+}
+
+#six{
+    background-color: cyan;
+} */
+
+
+#parent{
+    border:5px solid black;
+    height:100vh;
+    width:100vw;
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    
+}
+
+/* .child{
+    border:2px solid red;
+} */
+
+#one{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: red;
+}
+
+#two{
+    grid-column-start: 2;;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: blue;
+}
+
+#three{
+    grid-column-start: 2;;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: chocolate;
+}
+
+#four{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: pink;
+}
